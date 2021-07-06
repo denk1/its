@@ -1,0 +1,12 @@
+# This file is managed by Qt Creator, do not edit!
+
+set("CMAKE_PROJECT_INCLUDE_BEFORE" "/home/suvairin/Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake" CACHE "PATH" "" FORCE)
+set("QT_QMAKE_EXECUTABLE" "/usr/local/Qt-5.11.2/bin/qmake" CACHE "STRING" "" FORCE)
+set("CMAKE_PREFIX_PATH" "" CACHE "STRING" "" FORCE)
+set("CMAKE_C_COMPILER" "/usr/bin/gcc" CACHE "STRING" "" FORCE)
+set("CMAKE_CXX_COMPILER" "/usr/bin/g++" CACHE "STRING" "" FORCE)
+set("CMAKE_BUILD_TYPE" "DEBUG" CACHE "STRING" "" FORCE)
+set("CMAKE_CXX_COMPILER" "/usr/bin/g++" CACHE "STRING" "" FORCE)
+set("CMAKE_C_COMPILER" "/usr/bin/gcc" CACHE "STRING" "" FORCE)
+set("CMAKE_PREFIX_PATH" "" CACHE "STRING" "" FORCE)
+set("QT_QMAKE_EXECUTABLE" "/usr/local/Qt-5.11.2/bin/qmake" CACHE "STRING" "" FORCE)

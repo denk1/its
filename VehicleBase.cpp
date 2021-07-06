@@ -149,7 +149,7 @@ Ogre::SceneNode* VehicleBase::getVehicleSN()
 
 void VehicleBase::processControl(const VehicleSteer steer)
 {
-    (this->*mActionMap[steer])();
+    //(this->*mActionMap[steer])();
 }
 
 void VehicleBase::processRightPressed()

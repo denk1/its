@@ -5,7 +5,7 @@
 		<Option title="its"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\OGRE\;CMake Files\..\..\..\..\usr\local\lib\OGRE\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\OGRE\;CMake Files\..\..\..\..\usr\local\lib\OGRE\cmake\;CMake Files\..\..\Qt\;CMake Files\..\..\Qt\Tools\;CMake Files\..\..\Qt\Tools\QtCreator\;CMake Files\..\..\Qt\Tools\QtCreator\share\;CMake Files\..\..\Qt\Tools\QtCreator\share\qtcreator\;CMake Files\..\..\Qt\Tools\QtCreator\share\qtcreator\package-manager\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/suvairin/Projects/its/build"/>
@@ -27,6 +27,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/suvairin/Projects/its/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="its">
 				<Option output="/home/suvairin/Projects/its/build/its" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/suvairin/Projects/its/build"/>
@@ -43,12 +53,11 @@
 					<Add directory="/usr/local/include/OGRE/Overlay"/>
 					<Add directory="/usr/local/include/OGRE/Terrain"/>
 					<Add directory="/usr/local/include/OGRE/Paging"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
@@ -75,27 +84,16 @@
 					<Add directory="/usr/local/include/OGRE/Overlay"/>
 					<Add directory="/usr/local/include/OGRE/Terrain"/>
 					<Add directory="/usr/local/include/OGRE/Paging"/>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 its/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/suvairin/Projects/its/build"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/suvairin/Projects/its/build/Makefile&quot;  VERBOSE=1 clean"/>
@@ -124,12 +122,6 @@
 			<Option target="its"/>
 		</Unit>
 		<Unit filename="/home/suvairin/Projects/its/Config.h">
-			<Option target="its"/>
-		</Unit>
-		<Unit filename="/home/suvairin/Projects/its/ConnectionControl.cpp">
-			<Option target="its"/>
-		</Unit>
-		<Unit filename="/home/suvairin/Projects/its/ConnectionControl.h">
 			<Option target="its"/>
 		</Unit>
 		<Unit filename="/home/suvairin/Projects/its/ConnectionControlInterface.cpp">
@@ -323,6 +315,9 @@
 		</Unit>
 		<Unit filename="/home/suvairin/Projects/its/../../../../usr/local/lib/OGRE/cmake/OgreTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\OGRE\cmake\"/>
+		</Unit>
+		<Unit filename="/home/suvairin/Projects/its/../../Qt/Tools/QtCreator/share/qtcreator/package-manager/auto-setup.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt\Tools\QtCreator\share\qtcreator\package-manager\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -47,7 +47,6 @@ add_executable(${PROJECT_NAME} main.cpp
                                WGun.cpp
                                WRocketLauncher.cpp
                                ConnectionControlInterface.cpp
-                               ConnectionControl.cpp
                                ConnectionControlTcp.cpp
                                Controlling.cpp
                                ThreadSafeData.cpp

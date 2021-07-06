@@ -1,0 +1,177 @@
+[
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/main.cpp.o -c /home/suvairin/Projects/its/main.cpp",
+  "file": "/home/suvairin/Projects/its/main.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/TPCamera.cpp.o -c /home/suvairin/Projects/its/TPCamera.cpp",
+  "file": "/home/suvairin/Projects/its/TPCamera.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/ITS.cpp.o -c /home/suvairin/Projects/its/ITS.cpp",
+  "file": "/home/suvairin/Projects/its/ITS.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/GameState.cpp.o -c /home/suvairin/Projects/its/GameState.cpp",
+  "file": "/home/suvairin/Projects/its/GameState.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Physics.cpp.o -c /home/suvairin/Projects/its/Physics.cpp",
+  "file": "/home/suvairin/Projects/its/Physics.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/GSStart.cpp.o -c /home/suvairin/Projects/its/GSStart.cpp",
+  "file": "/home/suvairin/Projects/its/GSStart.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Map.cpp.o -c /home/suvairin/Projects/its/Map.cpp",
+  "file": "/home/suvairin/Projects/its/Map.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/MapLoader.cpp.o -c /home/suvairin/Projects/its/MapLoader.cpp",
+  "file": "/home/suvairin/Projects/its/MapLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/GSMap.cpp.o -c /home/suvairin/Projects/its/GSMap.cpp",
+  "file": "/home/suvairin/Projects/its/GSMap.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/BBLoader.cpp.o -c /home/suvairin/Projects/its/BBLoader.cpp",
+  "file": "/home/suvairin/Projects/its/BBLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/BonusBuilding.cpp.o -c /home/suvairin/Projects/its/BonusBuilding.cpp",
+  "file": "/home/suvairin/Projects/its/BonusBuilding.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/BonusBuildingBase.cpp.o -c /home/suvairin/Projects/its/BonusBuildingBase.cpp",
+  "file": "/home/suvairin/Projects/its/BonusBuildingBase.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Config.cpp.o -c /home/suvairin/Projects/its/Config.cpp",
+  "file": "/home/suvairin/Projects/its/Config.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Landscape.cpp.o -c /home/suvairin/Projects/its/Landscape.cpp",
+  "file": "/home/suvairin/Projects/its/Landscape.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Tower.cpp.o -c /home/suvairin/Projects/its/Tower.cpp",
+  "file": "/home/suvairin/Projects/its/Tower.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/TowerBase.cpp.o -c /home/suvairin/Projects/its/TowerBase.cpp",
+  "file": "/home/suvairin/Projects/its/TowerBase.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/TowerLoader.cpp.o -c /home/suvairin/Projects/its/TowerLoader.cpp",
+  "file": "/home/suvairin/Projects/its/TowerLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Weapon.cpp.o -c /home/suvairin/Projects/its/Weapon.cpp",
+  "file": "/home/suvairin/Projects/its/Weapon.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/WeaponFactory.cpp.o -c /home/suvairin/Projects/its/WeaponFactory.cpp",
+  "file": "/home/suvairin/Projects/its/WeaponFactory.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/WeaponHolder.cpp.o -c /home/suvairin/Projects/its/WeaponHolder.cpp",
+  "file": "/home/suvairin/Projects/its/WeaponHolder.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/WeaponLoader.cpp.o -c /home/suvairin/Projects/its/WeaponLoader.cpp",
+  "file": "/home/suvairin/Projects/its/WeaponLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Vehicle.cpp.o -c /home/suvairin/Projects/its/Vehicle.cpp",
+  "file": "/home/suvairin/Projects/its/Vehicle.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/VehicleBase.cpp.o -c /home/suvairin/Projects/its/VehicleBase.cpp",
+  "file": "/home/suvairin/Projects/its/VehicleBase.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/VehicleLoader.cpp.o -c /home/suvairin/Projects/its/VehicleLoader.cpp",
+  "file": "/home/suvairin/Projects/its/VehicleLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/VehiclePrototype.cpp.o -c /home/suvairin/Projects/its/VehiclePrototype.cpp",
+  "file": "/home/suvairin/Projects/its/VehiclePrototype.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/SceneLoader.cpp.o -c /home/suvairin/Projects/its/SceneLoader.cpp",
+  "file": "/home/suvairin/Projects/its/SceneLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/DotSceneLoader.cpp.o -c /home/suvairin/Projects/its/DotSceneLoader.cpp",
+  "file": "/home/suvairin/Projects/its/DotSceneLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/PhysicsShapesLoader.cpp.o -c /home/suvairin/Projects/its/PhysicsShapesLoader.cpp",
+  "file": "/home/suvairin/Projects/its/PhysicsShapesLoader.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/WGun.cpp.o -c /home/suvairin/Projects/its/WGun.cpp",
+  "file": "/home/suvairin/Projects/its/WGun.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/WRocketLauncher.cpp.o -c /home/suvairin/Projects/its/WRocketLauncher.cpp",
+  "file": "/home/suvairin/Projects/its/WRocketLauncher.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/ConnectionControlInterface.cpp.o -c /home/suvairin/Projects/its/ConnectionControlInterface.cpp",
+  "file": "/home/suvairin/Projects/its/ConnectionControlInterface.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/ConnectionControl.cpp.o -c /home/suvairin/Projects/its/ConnectionControl.cpp",
+  "file": "/home/suvairin/Projects/its/ConnectionControl.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/ConnectionControlTcp.cpp.o -c /home/suvairin/Projects/its/ConnectionControlTcp.cpp",
+  "file": "/home/suvairin/Projects/its/ConnectionControlTcp.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/Controlling.cpp.o -c /home/suvairin/Projects/its/Controlling.cpp",
+  "file": "/home/suvairin/Projects/its/Controlling.cpp"
+},
+{
+  "directory": "/home/suvairin/Projects/its/build",
+  "command": "/usr/bin/g++-9   -I/usr/local/include/OgreBullet/Dynamics -I/usr/local/include/OgreBullet/Collisions -I/usr/local/include/bullet -isystem /usr/local/include/OGRE/RTShaderSystem -isystem /usr/local/include/OGRE -isystem /usr/local/include/OGRE/Bites -isystem /usr/local/include/OGRE/Overlay -isystem /usr/local/include/OGRE/Terrain -isystem /usr/local/include/OGRE/Paging  -g   -std=gnu++17 -o CMakeFiles/its.dir/ThreadSafeData.cpp.o -c /home/suvairin/Projects/its/ThreadSafeData.cpp",
+  "file": "/home/suvairin/Projects/its/ThreadSafeData.cpp"
+}
+]

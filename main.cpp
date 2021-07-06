@@ -1,5 +1,4 @@
 #include "ITS.h"
-#include "ConnectionControl.h"
 #include "ConnectionControlTcp.h"
 
 

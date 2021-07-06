@@ -1,7 +1,5 @@
 #ifndef CONNECTION_CONTROL_H
 #define CONNECTION_CONTROL_H
-#include <websocketpp/config/asio_no_tls.hpp>
-#include <websocketpp/server.hpp>
 #include <iostream>
 #include <nlohmann/json.hpp>
 #include "ConnectionControlInterface.h"

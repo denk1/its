@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/suvairin/Projects/its/BonusBuilding.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/BonusBuilding.cpp.o"
   "/home/suvairin/Projects/its/BonusBuildingBase.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/BonusBuildingBase.cpp.o"
   "/home/suvairin/Projects/its/Config.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/Config.cpp.o"
-  "/home/suvairin/Projects/its/ConnectionControl.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/ConnectionControl.cpp.o"
   "/home/suvairin/Projects/its/ConnectionControlInterface.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/ConnectionControlInterface.cpp.o"
   "/home/suvairin/Projects/its/ConnectionControlTcp.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/ConnectionControlTcp.cpp.o"
   "/home/suvairin/Projects/its/Controlling.cpp" "/home/suvairin/Projects/its/build/CMakeFiles/its.dir/Controlling.cpp.o"
