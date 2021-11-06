@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/its.dir/BonusBuilding.cpp.o"
   "CMakeFiles/its.dir/BonusBuildingBase.cpp.o"
   "CMakeFiles/its.dir/Config.cpp.o"
+  "CMakeFiles/its.dir/ConnectionControl.cpp.o"
   "CMakeFiles/its.dir/ConnectionControlInterface.cpp.o"
   "CMakeFiles/its.dir/ConnectionControlTcp.cpp.o"
   "CMakeFiles/its.dir/Controlling.cpp.o"

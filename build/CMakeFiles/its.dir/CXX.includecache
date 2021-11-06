@@ -6,24 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/suvairin/Projects/its/BBLoader.cpp
-BBLoader.h
-/home/suvairin/Projects/its/BBLoader.h
-
-/home/suvairin/Projects/its/BBLoader.h
-Ogre.h
--
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-BonusBuildingBase.h
-/home/suvairin/Projects/its/BonusBuildingBase.h
-
-/home/suvairin/Projects/its/BonusBuilding.cpp
-BonusBuilding.h
-/home/suvairin/Projects/its/BonusBuilding.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
 /home/suvairin/Projects/its/BonusBuilding.h
 Ogre.h
 -
@@ -33,10 +15,6 @@ GameObject.h
 /home/suvairin/Projects/its/GameObject.h
 Physics.h
 /home/suvairin/Projects/its/Physics.h
-
-/home/suvairin/Projects/its/BonusBuildingBase.cpp
-BonusBuildingBase.h
-/home/suvairin/Projects/its/BonusBuildingBase.h
 
 /home/suvairin/Projects/its/BonusBuildingBase.h
 Ogre.h
@@ -48,106 +26,6 @@ Physics.h
 TowerBase.h
 /home/suvairin/Projects/its/TowerBase.h
 
-/home/suvairin/Projects/its/Config.cpp
-Config.h
-/home/suvairin/Projects/its/Config.h
-
-/home/suvairin/Projects/its/Config.h
-Ogre.h
--
-OgreSingleton.h
--
-
-/home/suvairin/Projects/its/ConnectionControlInterface.cpp
-ConnectionControlInterface.h
-/home/suvairin/Projects/its/ConnectionControlInterface.h
-
-/home/suvairin/Projects/its/ConnectionControlInterface.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-thread
--
-chrono
--
-
-/home/suvairin/Projects/its/ConnectionControlTcp.cpp
-ConnectionControlTcp.h
-/home/suvairin/Projects/its/ConnectionControlTcp.h
-
-/home/suvairin/Projects/its/ConnectionControlTcp.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-Controlling.h
-/home/suvairin/Projects/its/Controlling.h
-ConnectionControlInterface.h
-/home/suvairin/Projects/its/ConnectionControlInterface.h
-ThreadSafeData.h
-/home/suvairin/Projects/its/ThreadSafeData.h
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-errno.h
--
-string.h
--
-sys/types.h
--
-sys/socket.h
--
-netinet/in.h
--
-netdb.h
--
-arpa/inet.h
--
-sys/wait.h
--
-signal.h
--
-
-/home/suvairin/Projects/its/Controlling.cpp
-Controlling.h
-/home/suvairin/Projects/its/Controlling.h
-ThreadSafeData.h
-/home/suvairin/Projects/its/ThreadSafeData.h
-
-/home/suvairin/Projects/its/Controlling.h
-thread
--
-functional
--
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
-/home/suvairin/Projects/its/DotSceneLoader.cpp
-DotSceneLoader.h
-/home/suvairin/Projects/its/DotSceneLoader.h
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-
-/home/suvairin/Projects/its/DotSceneLoader.h
-Ogre.h
--
-OgreString.h
--
-OgreVector3.h
--
-OgreQuaternion.h
--
-vector
--
-
-/home/suvairin/Projects/its/GSMap.cpp
-GSMap.h
-/home/suvairin/Projects/its/GSMap.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-VehicleLoader.h
-/home/suvairin/Projects/its/VehicleLoader.h
-
 /home/suvairin/Projects/its/GSMap.h
 GameState.h
 /home/suvairin/Projects/its/GameState.h
@@ -158,41 +36,13 @@ Vehicle.h
 ITS.h
 /home/suvairin/Projects/its/ITS.h
 
-/home/suvairin/Projects/its/GSStart.cpp
-GSStart.h
-/home/suvairin/Projects/its/GSStart.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
-/home/suvairin/Projects/its/GSStart.h
-GameState.h
-/home/suvairin/Projects/its/GameState.h
-
 /home/suvairin/Projects/its/GameObject.h
 Ogre.h
 -
 
-/home/suvairin/Projects/its/GameState.cpp
-GameState.h
-/home/suvairin/Projects/its/GameState.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
 /home/suvairin/Projects/its/GameState.h
 Ogre.h
 -
-
-/home/suvairin/Projects/its/ITS.cpp
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-GSStart.h
-/home/suvairin/Projects/its/GSStart.h
-MapLoader.h
-/home/suvairin/Projects/its/MapLoader.h
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-Config.h
-/home/suvairin/Projects/its/Config.h
 
 /home/suvairin/Projects/its/ITS.h
 iostream
@@ -234,16 +84,6 @@ Terrain/OgreTerrain.h
 Terrain/OgreTerrainGroup.h
 -
 
-/home/suvairin/Projects/its/Map.cpp
-Map.h
-/home/suvairin/Projects/its/Map.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-Physics.h
-/home/suvairin/Projects/its/Physics.h
-SceneLoader.h
-/home/suvairin/Projects/its/SceneLoader.h
-
 /home/suvairin/Projects/its/Map.h
 Ogre.h
 -
@@ -259,34 +99,6 @@ GameObject.h
 /home/suvairin/Projects/its/GameObject.h
 WeaponFactory.h
 /home/suvairin/Projects/its/WeaponFactory.h
-
-/home/suvairin/Projects/its/MapLoader.cpp
-MapLoader.h
-/home/suvairin/Projects/its/MapLoader.h
-TowerLoader.h
-/home/suvairin/Projects/its/TowerLoader.h
-BBLoader.h
-/home/suvairin/Projects/its/BBLoader.h
-
-/home/suvairin/Projects/its/MapLoader.h
-Ogre.h
--
-Map.h
-/home/suvairin/Projects/its/Map.h
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-Landscape.h
-/home/suvairin/Projects/its/Landscape.h
-Tower.h
-/home/suvairin/Projects/its/Tower.h
-
-/home/suvairin/Projects/its/Physics.cpp
-Physics.h
-/home/suvairin/Projects/its/Physics.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-Utils/OgreBulletCollisionsMeshToShapeConverter.h
--
 
 /home/suvairin/Projects/its/Physics.h
 Ogre.h
@@ -314,42 +126,6 @@ Shapes/OgreBulletCollisionsTerrainShape.h
 Shapes/OgreBulletCollisionsCompoundShape.h
 -
 
-/home/suvairin/Projects/its/PhysicsShapesLoader.cpp
-PhysicsShapesLoader.h
-/home/suvairin/Projects/its/PhysicsShapesLoader.h
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-
-/home/suvairin/Projects/its/PhysicsShapesLoader.h
-Ogre.h
--
-Physics.h
-/home/suvairin/Projects/its/Physics.h
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-map
--
-algorithm
--
-
-/home/suvairin/Projects/its/SceneLoader.cpp
-SceneLoader.h
-/home/suvairin/Projects/its/SceneLoader.h
-Physics.h
-/home/suvairin/Projects/its/Physics.h
-Utils/OgreBulletCollisionsMeshToShapeConverter.h
--
-
-/home/suvairin/Projects/its/SceneLoader.h
-DotSceneLoader.h
-/home/suvairin/Projects/its/DotSceneLoader.h
-
-/home/suvairin/Projects/its/TPCamera.cpp
-TPCamera.h
-/home/suvairin/Projects/its/TPCamera.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
 /home/suvairin/Projects/its/TPCamera.h
 Ogre.h
 -
@@ -360,30 +136,6 @@ OgreSingleton.h
 ITS.h
 /home/suvairin/Projects/its/ITS.h
 
-/home/suvairin/Projects/its/ThreadSafeData.cpp
-ThreadSafeData.h
-/home/suvairin/Projects/its/ThreadSafeData.h
-
-/home/suvairin/Projects/its/ThreadSafeData.h
-iostream
--
-mutex
--
-shared_mutex
--
-thread
--
-Controlling.h
-/home/suvairin/Projects/its/Controlling.h
-
-/home/suvairin/Projects/its/Tower.cpp
-Tower.h
-/home/suvairin/Projects/its/Tower.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-
 /home/suvairin/Projects/its/Tower.h
 Ogre.h
 -
@@ -393,10 +145,6 @@ GameObject.h
 /home/suvairin/Projects/its/GameObject.h
 Physics.h
 /home/suvairin/Projects/its/Physics.h
-
-/home/suvairin/Projects/its/TowerBase.cpp
-TowerBase.h
-/home/suvairin/Projects/its/TowerBase.h
 
 /home/suvairin/Projects/its/TowerBase.h
 Ogre.h
@@ -410,30 +158,6 @@ Weapon.h
 WeaponHolder.h
 /home/suvairin/Projects/its/WeaponHolder.h
 
-/home/suvairin/Projects/its/TowerLoader.cpp
-TowerLoader.h
-/home/suvairin/Projects/its/TowerLoader.h
-WeaponLoader.h
-/home/suvairin/Projects/its/WeaponLoader.h
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-
-/home/suvairin/Projects/its/TowerLoader.h
-Ogre.h
--
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-TowerBase.h
-/home/suvairin/Projects/its/TowerBase.h
-
-/home/suvairin/Projects/its/Vehicle.cpp
-Vehicle.h
-/home/suvairin/Projects/its/Vehicle.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-
 /home/suvairin/Projects/its/Vehicle.h
 Ogre.h
 -
@@ -444,37 +168,11 @@ VehicleBase.h
 WeaponHolder.h
 /home/suvairin/Projects/its/WeaponHolder.h
 
-/home/suvairin/Projects/its/VehicleBase.cpp
-VehicleBase.h
-/home/suvairin/Projects/its/VehicleBase.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-Config.h
-/home/suvairin/Projects/its/Config.h
-
 /home/suvairin/Projects/its/VehicleBase.h
 Ogre.h
 -
 Physics.h
 /home/suvairin/Projects/its/Physics.h
-VehiclePrototype.h
-/home/suvairin/Projects/its/VehiclePrototype.h
-
-/home/suvairin/Projects/its/VehicleLoader.cpp
-VehicleLoader.h
-/home/suvairin/Projects/its/VehicleLoader.h
-
-/home/suvairin/Projects/its/VehicleLoader.h
-Ogre.h
--
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-VehiclePrototype.h
-/home/suvairin/Projects/its/VehiclePrototype.h
-PhysicsShapesLoader.h
-/home/suvairin/Projects/its/PhysicsShapesLoader.h
-
-/home/suvairin/Projects/its/VehiclePrototype.cpp
 VehiclePrototype.h
 /home/suvairin/Projects/its/VehiclePrototype.h
 
@@ -486,45 +184,9 @@ Ogre.h
 Physics.h
 /home/suvairin/Projects/its/Physics.h
 
-/home/suvairin/Projects/its/WGun.cpp
-WGun.h
-/home/suvairin/Projects/its/WGun.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
-/home/suvairin/Projects/its/WGun.h
-Ogre.h
--
-Weapon.h
-/home/suvairin/Projects/its/Weapon.h
-
-/home/suvairin/Projects/its/WRocketLauncher.cpp
-WRocketLauncher.h
-/home/suvairin/Projects/its/WRocketLauncher.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-
-/home/suvairin/Projects/its/WRocketLauncher.h
-Ogre.h
--
-Weapon.h
-/home/suvairin/Projects/its/Weapon.h
-
-/home/suvairin/Projects/its/Weapon.cpp
-Weapon.h
-/home/suvairin/Projects/its/Weapon.h
-
 /home/suvairin/Projects/its/Weapon.h
 Ogre.h
 -
-
-/home/suvairin/Projects/its/WeaponFactory.cpp
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-WGun.h
-/home/suvairin/Projects/its/WGun.h
-WRocketLauncher.h
-/home/suvairin/Projects/its/WRocketLauncher.h
 
 /home/suvairin/Projects/its/WeaponFactory.h
 Ogre.h
@@ -534,37 +196,11 @@ OgreSingleton.h
 Weapon.h
 /home/suvairin/Projects/its/Weapon.h
 
-/home/suvairin/Projects/its/WeaponHolder.cpp
-WeaponHolder.h
-/home/suvairin/Projects/its/WeaponHolder.h
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-WeaponFactory.h
-/home/suvairin/Projects/its/WeaponFactory.h
-
 /home/suvairin/Projects/its/WeaponHolder.h
 Ogre.h
 -
 Weapon.h
 /home/suvairin/Projects/its/Weapon.h
-
-/home/suvairin/Projects/its/WeaponLoader.cpp
-WeaponLoader.h
-/home/suvairin/Projects/its/WeaponLoader.h
-
-/home/suvairin/Projects/its/WeaponLoader.h
-Ogre.h
--
-tinyxml.h
-/home/suvairin/Projects/its/tinyxml.h
-Weapon.h
-/home/suvairin/Projects/its/Weapon.h
-
-/home/suvairin/Projects/its/main.cpp
-ITS.h
-/home/suvairin/Projects/its/ITS.h
-ConnectionControlTcp.h
-/home/suvairin/Projects/its/ConnectionControlTcp.h
 
 /usr/local/include/OGRE/Bites/OgreBitesPrerequisites.h
 
@@ -579,6 +215,8 @@ OgreCommon.h
 /usr/local/include/OGRE/Bites/OgreCommon.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/Bites/OgreHeaderPrefix.h
+windows.h
+-
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/Bites/OgreHeaderSuffix.h
 
@@ -707,10 +345,8 @@ OgrePatchSurface.h
 /usr/local/include/OGRE/OgrePatchSurface.h
 OgreProfiler.h
 /usr/local/include/OGRE/OgreProfiler.h
-OgreRadixSort.h
-/usr/local/include/OGRE/OgreRadixSort.h
-OgreRenderQueueInvocation.h
-/usr/local/include/OGRE/OgreRenderQueueInvocation.h
+OgreRectangle2D.h
+/usr/local/include/OGRE/OgreRectangle2D.h
 OgreRenderQueueListener.h
 /usr/local/include/OGRE/OgreRenderQueueListener.h
 OgreRenderObjectListener.h
@@ -777,10 +413,12 @@ OgreTextureUnitState.h
 /usr/local/include/OGRE/OgreTextureUnitState.h
 OgreTimer.h
 /usr/local/include/OGRE/OgreTimer.h
-OgreVector2.h
-/usr/local/include/OGRE/OgreVector2.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreViewport.h
 /usr/local/include/OGRE/OgreViewport.h
+OgreComponents.h
+/usr/local/include/OGRE/OgreComponents.h
 
 /usr/local/include/OGRE/OgreAlignedAllocator.h
 cstdlib
@@ -793,10 +431,8 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
-OgreVector2.h
-/usr/local/include/OGRE/OgreVector2.h
-OgreVector4.h
-/usr/local/include/OGRE/OgreVector4.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreColourValue.h
 /usr/local/include/OGRE/OgreColourValue.h
 OgreStringVector.h
@@ -811,8 +447,8 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreAnimation.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
+OgreIteratorWrapper.h
+/usr/local/include/OGRE/OgreIteratorWrapper.h
 OgreAnimationTrack.h
 /usr/local/include/OGRE/OgreAnimationTrack.h
 OgreAnimationState.h
@@ -829,8 +465,8 @@ OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreController.h
 /usr/local/include/OGRE/OgreController.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
+OgreControllerManager.h
+/usr/local/include/OGRE/OgreControllerManager.h
 Threading/OgreThreadHeaders.h
 /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
 OgreHeaderPrefix.h
@@ -855,8 +491,6 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreAny.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreException.h
-/usr/local/include/OGRE/OgreException.h
 typeinfo
 -
 OgreHeaderPrefix.h
@@ -883,16 +517,12 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreSingleton.h
 /usr/local/include/OGRE/OgreSingleton.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
+OgreIteratorWrapper.h
+/usr/local/include/OGRE/OgreIteratorWrapper.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreAtomicScalar.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
 
 /usr/local/include/OGRE/OgreAutoParamDataSource.h
 OgrePrerequisites.h
@@ -901,6 +531,8 @@ OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreLight.h
 /usr/local/include/OGRE/OgreLight.h
+OgreSceneNode.h
+/usr/local/include/OGRE/OgreSceneNode.h
 
 /usr/local/include/OGRE/OgreAxisAlignedBox.h
 array
@@ -921,8 +553,8 @@ OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreMath.h
 /usr/local/include/OGRE/OgreMath.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -947,8 +579,6 @@ OgreMovableObject.h
 /usr/local/include/OGRE/OgreMovableObject.h
 OgreRenderable.h
 /usr/local/include/OGRE/OgreRenderable.h
-OgreRadixSort.h
-/usr/local/include/OGRE/OgreRadixSort.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreResourceGroupManager.h
@@ -989,12 +619,16 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 
 /usr/local/include/OGRE/OgreCommon.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreMurmurHash3.h
 /usr/local/include/OGRE/OgreMurmurHash3.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
+
+/usr/local/include/OGRE/OgreComponents.h
 
 /usr/local/include/OGRE/OgreCompositionPass.h
 OgrePrerequisites.h
@@ -1009,10 +643,10 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreCompositionTargetPass.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+OgreCompositionPass.h
+/usr/local/include/OGRE/OgreCompositionPass.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -1021,8 +655,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgrePixelFormat.h
 /usr/local/include/OGRE/OgrePixelFormat.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1031,8 +663,6 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreCompositor.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1065,6 +695,8 @@ OgreCompositionTechnique.h
 /usr/local/include/OGRE/OgreCompositionTechnique.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+bitset
+-
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -1093,8 +725,6 @@ OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreStringVector.h
 /usr/local/include/OGRE/OgreStringVector.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1161,8 +791,8 @@ OgreMovableObject.h
 /usr/local/include/OGRE/OgreMovableObject.h
 OgreQuaternion.h
 /usr/local/include/OGRE/OgreQuaternion.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreHardwareBufferManager.h
 /usr/local/include/OGRE/OgreHardwareBufferManager.h
 OgreRenderable.h
@@ -1197,8 +827,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreMovableObject.h
 /usr/local/include/OGRE/OgreMovableObject.h
-OgreRenderable.h
-/usr/local/include/OGRE/OgreRenderable.h
 OgreAxisAlignedBox.h
 /usr/local/include/OGRE/OgreAxisAlignedBox.h
 OgreVertexIndexData.h
@@ -1217,8 +845,8 @@ OgreGpuProgramParams.h
 /usr/local/include/OGRE/OgreGpuProgramParams.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreSharedPtr.h
 /usr/local/include/OGRE/OgreSharedPtr.h
 OgreHeaderSuffix.h
@@ -1239,12 +867,12 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
 /usr/local/include/OGRE/OgreGpuProgramParams.h
+limits
+-
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreSharedPtr.h
 /usr/local/include/OGRE/OgreSharedPtr.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreSerializer.h
 /usr/local/include/OGRE/OgreSerializer.h
 OgreAny.h
@@ -1267,28 +895,12 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreSingleton.h
 /usr/local/include/OGRE/OgreSingleton.h
-OgreHardwareCounterBuffer.h
-/usr/local/include/OGRE/OgreHardwareCounterBuffer.h
 OgreHardwareIndexBuffer.h
 /usr/local/include/OGRE/OgreHardwareIndexBuffer.h
-OgreHardwareUniformBuffer.h
-/usr/local/include/OGRE/OgreHardwareUniformBuffer.h
 OgreHardwareVertexBuffer.h
 /usr/local/include/OGRE/OgreHardwareVertexBuffer.h
 Threading/OgreThreadHeaders.h
 /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreHardwareCounterBuffer.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreHardwareBuffer.h
-/usr/local/include/OGRE/OgreHardwareBuffer.h
-OgreSharedPtr.h
-/usr/local/include/OGRE/OgreSharedPtr.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1313,18 +925,6 @@ OgreHardwareBuffer.h
 /usr/local/include/OGRE/OgreHardwareBuffer.h
 OgreImage.h
 /usr/local/include/OGRE/OgreImage.h
-OgreSharedPtr.h
-/usr/local/include/OGRE/OgreSharedPtr.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreHardwareUniformBuffer.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreHardwareBuffer.h
-/usr/local/include/OGRE/OgreHardwareBuffer.h
 OgreSharedPtr.h
 /usr/local/include/OGRE/OgreSharedPtr.h
 OgreHeaderPrefix.h
@@ -1361,18 +961,8 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
 /usr/local/include/OGRE/OgreHighLevelGpuProgramManager.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreResourceManager.h
-/usr/local/include/OGRE/OgreResourceManager.h
-OgreSingleton.h
-/usr/local/include/OGRE/OgreSingleton.h
-OgreGpuProgram.h
-/usr/local/include/OGRE/OgreGpuProgram.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
+OgreGpuProgramManager.h
+/usr/local/include/OGRE/OgreGpuProgramManager.h
 
 /usr/local/include/OGRE/OgreImage.h
 OgrePrerequisites.h
@@ -1424,17 +1014,11 @@ OgreHeaderPrefix.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
-/usr/local/include/OGRE/OgreIteratorWrappers.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreIteratorWrapper.h
-/usr/local/include/OGRE/OgreIteratorWrapper.h
-
 /usr/local/include/OGRE/OgreKeyFrame.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreQuaternion.h
 /usr/local/include/OGRE/OgreQuaternion.h
 OgreAny.h
@@ -1451,12 +1035,16 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreColourValue.h
 /usr/local/include/OGRE/OgreColourValue.h
-OgreVector4.h
-/usr/local/include/OGRE/OgreVector4.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreMovableObject.h
 /usr/local/include/OGRE/OgreMovableObject.h
 OgrePlaneBoundedVolume.h
 /usr/local/include/OGRE/OgrePlaneBoundedVolume.h
+OgreNode.h
+/usr/local/include/OGRE/OgreNode.h
+OgreCamera.h
+/usr/local/include/OGRE/OgreCamera.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1475,6 +1063,10 @@ Threading/OgreThreadHeaders.h
 /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+fstream
+-
+sstream
+-
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -1509,8 +1101,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreResource.h
 /usr/local/include/OGRE/OgreResource.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreColourValue.h
@@ -1553,6 +1143,8 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
 /usr/local/include/OGRE/OgreMath.h
+limits
+-
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreHeaderPrefix.h
@@ -1563,18 +1155,16 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreMatrix3.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 
 /usr/local/include/OGRE/OgreMatrix4.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreMatrix3.h
 /usr/local/include/OGRE/OgreMatrix3.h
-OgreVector4.h
-/usr/local/include/OGRE/OgreVector4.h
-OgrePlane.h
-/usr/local/include/OGRE/OgrePlane.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 
 /usr/local/include/OGRE/OgreMemoryAllocatorConfig.h
 OgreAlignedAllocator.h
@@ -1607,8 +1197,8 @@ OgreResourceManager.h
 /usr/local/include/OGRE/OgreResourceManager.h
 OgreSingleton.h
 /usr/local/include/OGRE/OgreSingleton.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreHardwareBuffer.h
 /usr/local/include/OGRE/OgreHardwareBuffer.h
 OgreHardwareVertexBuffer.h
@@ -1617,6 +1207,8 @@ OgrePatchSurface.h
 /usr/local/include/OGRE/OgrePatchSurface.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+OgrePlane.h
+/usr/local/include/OGRE/OgrePlane.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -1683,8 +1275,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreMatrix4.h
 /usr/local/include/OGRE/OgreMatrix4.h
-OgreRenderable.h
-/usr/local/include/OGRE/OgreRenderable.h
 OgreUserObjectBindings.h
 /usr/local/include/OGRE/OgreUserObjectBindings.h
 OgreHeaderPrefix.h
@@ -1715,30 +1305,16 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreParticleEmitter.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreColourValue.h
 /usr/local/include/OGRE/OgreColourValue.h
 OgreStringInterface.h
 /usr/local/include/OGRE/OgreStringInterface.h
-OgreParticleEmitterCommands.h
-/usr/local/include/OGRE/OgreParticleEmitterCommands.h
 OgreParticle.h
 /usr/local/include/OGRE/OgreParticle.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreParticleEmitterCommands.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreStringInterface.h
-/usr/local/include/OGRE/OgreStringInterface.h
-
-/usr/local/include/OGRE/OgreParticleIterator.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
+OgreParticleSystem.h
+/usr/local/include/OGRE/OgreParticleSystem.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1747,16 +1323,12 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreParticleSystem.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
-OgreParticleIterator.h
-/usr/local/include/OGRE/OgreParticleIterator.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreStringInterface.h
 /usr/local/include/OGRE/OgreStringInterface.h
 OgreMovableObject.h
 /usr/local/include/OGRE/OgreMovableObject.h
-OgreRadixSort.h
-/usr/local/include/OGRE/OgreRadixSort.h
 OgreResourceGroupManager.h
 /usr/local/include/OGRE/OgreResourceGroupManager.h
 OgreHeaderPrefix.h
@@ -1821,6 +1393,8 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
+OgreColourValue.h
+/usr/local/include/OGRE/OgreColourValue.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1829,8 +1403,10 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgrePlane.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
+OgreAxisAlignedBox.h
+/usr/local/include/OGRE/OgreAxisAlignedBox.h
 
 /usr/local/include/OGRE/OgrePlaneBoundedVolume.h
 OgrePrerequisites.h
@@ -1859,14 +1435,14 @@ winapifamily.h
 -
 Availability.h
 /usr/local/include/OGRE/Availability.h
-_mingw.h
+stdint.h
 -
 
 /usr/local/include/OGRE/OgrePolygon.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1879,8 +1455,6 @@ OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 OgreHardwareVertexBuffer.h
 /usr/local/include/OGRE/OgreHardwareVertexBuffer.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -1914,15 +1488,17 @@ OgrePrerequisites.h
 OgreMath.h
 /usr/local/include/OGRE/OgreMath.h
 
-/usr/local/include/OGRE/OgreRadixSort.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-
 /usr/local/include/OGRE/OgreRay.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgrePlaneBoundedVolume.h
 /usr/local/include/OGRE/OgrePlaneBoundedVolume.h
+
+/usr/local/include/OGRE/OgreRectangle2D.h
+OgrePrerequisites.h
+/usr/local/include/OGRE/OgrePrerequisites.h
+OgreSimpleRenderable.h
+/usr/local/include/OGRE/OgreSimpleRenderable.h
 
 /usr/local/include/OGRE/OgreRenderObjectListener.h
 OgrePrerequisites.h
@@ -1947,18 +1523,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreRenderQueueInvocation.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreRenderQueueSortingGrouping.h
-/usr/local/include/OGRE/OgreRenderQueueSortingGrouping.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -1973,8 +1537,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgrePass.h
 /usr/local/include/OGRE/OgrePass.h
-OgreRadixSort.h
-/usr/local/include/OGRE/OgreRadixSort.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -2059,8 +1621,8 @@ OgreMaterial.h
 /usr/local/include/OGRE/OgreMaterial.h
 OgrePlane.h
 /usr/local/include/OGRE/OgrePlane.h
-OgreVector4.h
-/usr/local/include/OGRE/OgreVector4.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
 OgreException.h
 /usr/local/include/OGRE/OgreException.h
 OgreUserObjectBindings.h
@@ -2073,8 +1635,6 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreResource.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreAtomicScalar.h
-/usr/local/include/OGRE/OgreAtomicScalar.h
 OgreStringInterface.h
 /usr/local/include/OGRE/OgreStringInterface.h
 OgreHeaderPrefix.h
@@ -2109,8 +1669,8 @@ OgreDataStream.h
 /usr/local/include/OGRE/OgreDataStream.h
 OgreArchive.h
 /usr/local/include/OGRE/OgreArchive.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/OgreIteratorWrappers.h
+OgreIteratorWrapper.h
+/usr/local/include/OGRE/OgreIteratorWrapper.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
 Threading/OgreThreadHeaders.h
@@ -2161,6 +1721,8 @@ OgreSceneManagerEnumerator.h
 /usr/local/include/OGRE/OgreSceneManagerEnumerator.h
 exception
 -
+deque
+-
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -2199,8 +1761,6 @@ OgreRenderQueueSortingGrouping.h
 /usr/local/include/OGRE/OgreRenderQueueSortingGrouping.h
 OgreResourceGroupManager.h
 /usr/local/include/OGRE/OgreResourceGroupManager.h
-OgreShadowTextureManager.h
-/usr/local/include/OGRE/OgreShadowTextureManager.h
 OgreInstanceManager.h
 /usr/local/include/OGRE/OgreInstanceManager.h
 OgreManualObject.h
@@ -2231,6 +1791,8 @@ OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreSceneNode.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
+OgreCommon.h
+/usr/local/include/OGRE/OgreCommon.h
 OgreNode.h
 /usr/local/include/OGRE/OgreNode.h
 OgreAxisAlignedBox.h
@@ -2293,6 +1855,8 @@ OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreAxisAlignedBox.h
 /usr/local/include/OGRE/OgreAxisAlignedBox.h
+OgreSceneNode.h
+/usr/local/include/OGRE/OgreSceneNode.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -2333,18 +1897,6 @@ OgreRenderable.h
 /usr/local/include/OGRE/OgreRenderable.h
 OgreRenderOperation.h
 /usr/local/include/OGRE/OgreRenderOperation.h
-OgreHeaderPrefix.h
-/usr/local/include/OGRE/OgreHeaderPrefix.h
-OgreHeaderSuffix.h
-/usr/local/include/OGRE/OgreHeaderSuffix.h
-
-/usr/local/include/OGRE/OgreShadowTextureManager.h
-OgrePrerequisites.h
-/usr/local/include/OGRE/OgrePrerequisites.h
-OgreSingleton.h
-/usr/local/include/OGRE/OgreSingleton.h
-OgrePixelFormat.h
-/usr/local/include/OGRE/OgrePixelFormat.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
 OgreHeaderSuffix.h
@@ -2429,8 +1981,10 @@ OgreSerializer.h
 /usr/local/include/OGRE/OgreSphere.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
-OgreVector3.h
-/usr/local/include/OGRE/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
+OgrePlane.h
+/usr/local/include/OGRE/OgrePlane.h
 
 /usr/local/include/OGRE/OgreStaticGeometry.h
 OgrePrerequisites.h
@@ -2471,45 +2025,15 @@ set
 -
 list
 -
-deque
--
-queue
--
-bitset
--
 unordered_map
--
-unordered_set
 -
 algorithm
 -
-functional
--
-limits
--
-fstream
+ostream
 -
 iosfwd
 -
-sstream
--
 atomic
--
-sys/types.h
--
-sys/stat.h
--
-unistd.h
--
-unistd.h
--
-dlfcn.h
--
-unistd.h
--
-sys/param.h
--
-CoreFoundation/CoreFoundation.h
 -
 emscripten/emscripten.h
 -
@@ -2519,10 +2043,6 @@ OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
-stdlib.h
--
-xlocale.h
--
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -2537,18 +2057,22 @@ OgreColourValue.h
 /usr/local/include/OGRE/OgreColourValue.h
 OgreMatrix4.h
 /usr/local/include/OGRE/OgreMatrix4.h
-OgreVector2.h
-/usr/local/include/OGRE/OgreVector2.h
+OgreVector.h
+/usr/local/include/OGRE/OgreVector.h
+stdlib.h
+-
+xlocale.h
+-
 
 /usr/local/include/OGRE/OgreStringInterface.h
 OgrePrerequisites.h
 /usr/local/include/OGRE/OgrePrerequisites.h
 OgreCommon.h
 /usr/local/include/OGRE/OgreCommon.h
-Threading/OgreThreadHeaders.h
-/usr/local/include/OGRE/Threading/OgreThreadHeaders.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+OgreStringConverter.h
+/usr/local/include/OGRE/OgreStringConverter.h
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -2674,15 +2198,7 @@ OgreMath.h
 OgreQuaternion.h
 /usr/local/include/OGRE/OgreQuaternion.h
 
-/usr/local/include/OGRE/OgreVector2.h
-OgreVector.h
-/usr/local/include/OGRE/OgreVector.h
-
 /usr/local/include/OGRE/OgreVector3.h
-OgreVector.h
-/usr/local/include/OGRE/OgreVector.h
-
-/usr/local/include/OGRE/OgreVector4.h
 OgreVector.h
 /usr/local/include/OGRE/OgreVector.h
 
@@ -2727,6 +2243,8 @@ Threading/OgreThreadHeaders.h
 /usr/local/include/OGRE/Threading/OgreThreadHeaders.h
 OgreHeaderPrefix.h
 /usr/local/include/OGRE/OgreHeaderPrefix.h
+deque
+-
 OgreHeaderSuffix.h
 /usr/local/include/OGRE/OgreHeaderSuffix.h
 
@@ -2739,6 +2257,10 @@ OgreCommon.h
 /usr/local/include/OGRE/Overlay/OgreCommon.h
 OgreSharedPtr.h
 /usr/local/include/OGRE/Overlay/OgreSharedPtr.h
+OgreColourValue.h
+/usr/local/include/OGRE/Overlay/OgreColourValue.h
+OgreException.h
+/usr/local/include/OGRE/Overlay/OgreException.h
 
 /usr/local/include/OGRE/Overlay/OgreFontManager.h
 OgreOverlayPrerequisites.h
@@ -2757,8 +2279,8 @@ OgreTerrainPrerequisites.h
 /usr/local/include/OGRE/Terrain/OgreTerrainPrerequisites.h
 OgreCommon.h
 /usr/local/include/OGRE/Terrain/OgreCommon.h
-OgreVector3.h
-/usr/local/include/OGRE/Terrain/OgreVector3.h
+OgreVector.h
+/usr/local/include/OGRE/Terrain/OgreVector.h
 OgreAxisAlignedBox.h
 /usr/local/include/OGRE/Terrain/OgreAxisAlignedBox.h
 OgreSceneManager.h
@@ -2779,8 +2301,10 @@ OgreTerrain.h
 /usr/local/include/OGRE/Terrain/OgreTerrain.h
 OgreWorkQueue.h
 /usr/local/include/OGRE/Terrain/OgreWorkQueue.h
-OgreIteratorWrappers.h
-/usr/local/include/OGRE/Terrain/OgreIteratorWrappers.h
+OgreIteratorWrapper.h
+/usr/local/include/OGRE/Terrain/OgreIteratorWrapper.h
+OgreConfigFile.h
+/usr/local/include/OGRE/Terrain/OgreConfigFile.h
 
 /usr/local/include/OGRE/Terrain/OgreTerrainLayerBlendMap.h
 OgreTerrainPrerequisites.h
@@ -2789,6 +2313,8 @@ OgreCommon.h
 /usr/local/include/OGRE/Terrain/OgreCommon.h
 OgreDataStream.h
 /usr/local/include/OGRE/Terrain/OgreDataStream.h
+OgreImage.h
+/usr/local/include/OGRE/Terrain/OgreImage.h
 
 /usr/local/include/OGRE/Terrain/OgreTerrainLodManager.h
 OgreTerrainPrerequisites.h
@@ -2904,17 +2430,17 @@ OgreBulletCollisionsPreRequisites.h
 Debug/OgreBulletCollisionsDebugLines.h
 /usr/local/include/OgreBullet/Collisions/Debug/Debug/OgreBulletCollisionsDebugLines.h
 
-/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugDrawer.h
-OgreBulletCollisionsPreRequisites.h
-/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsPreRequisites.h
-Debug/OgreBulletCollisionsDebugLines.h
-/usr/local/include/OgreBullet/Collisions/Debug/Debug/OgreBulletCollisionsDebugLines.h
-
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugLines.h
 OgreBulletCollisionsPreRequisites.h
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsPreRequisites.h
 
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugShape.h
+OgreBulletCollisionsPreRequisites.h
+/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsPreRequisites.h
+Debug/OgreBulletCollisionsDebugLines.h
+/usr/local/include/OgreBullet/Collisions/Debug/Debug/OgreBulletCollisionsDebugLines.h
+
+/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsOgreBulletDebugDrawer.h
 OgreBulletCollisionsPreRequisites.h
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsPreRequisites.h
 Debug/OgreBulletCollisionsDebugLines.h
@@ -2929,8 +2455,8 @@ Debug/OgreBulletCollisionsDebugLines.h
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugLines.h
 Debug/OgreBulletCollisionsDebugShape.h
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugShape.h
-Debug/OgreBulletCollisionsDebugDrawer.h
-/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugDrawer.h
+Debug/OgreBulletCollisionsOgreBulletDebugDrawer.h
+/usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsOgreBulletDebugDrawer.h
 Debug/OgreBulletCollisionsDebugContact.h
 /usr/local/include/OgreBullet/Collisions/Debug/OgreBulletCollisionsDebugContact.h
 OgreBulletCollisionsShape.h
@@ -3165,8 +2691,8 @@ OgreBulletDynamicsPreRequisites.h
 /usr/local/include/OgreBullet/Dynamics/OgreBulletDynamicsPreRequisites.h
 OgreBulletCollisionsWorld.h
 /usr/local/include/OgreBullet/Dynamics/OgreBulletCollisionsWorld.h
-Debug/OgreBulletCollisionsDebugDrawer.h
-/usr/local/include/OgreBullet/Dynamics/Debug/OgreBulletCollisionsDebugDrawer.h
+Debug/OgreBulletCollisionsOgreBulletDebugDrawer.h
+/usr/local/include/OgreBullet/Dynamics/Debug/OgreBulletCollisionsOgreBulletDebugDrawer.h
 
 /usr/local/include/bullet/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 LinearMath/btVector3.h
@@ -3623,6 +3149,8 @@ btBoxCollision.h
 /usr/local/include/bullet/BulletCollision/Gimpact/btBoxCollision.h
 btTriangleShapeEx.h
 /usr/local/include/bullet/BulletCollision/Gimpact/btTriangleShapeEx.h
+gim_pair.h
+/usr/local/include/bullet/BulletCollision/Gimpact/gim_pair.h
 
 /usr/local/include/bullet/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h
 BulletCollision/CollisionDispatch/btActivatingCollisionAlgorithm.h
@@ -3713,6 +3241,8 @@ btClipPolygon.h
 /usr/local/include/bullet/BulletCollision/Gimpact/btClipPolygon.h
 btGeometryOperations.h
 /usr/local/include/bullet/BulletCollision/Gimpact/btGeometryOperations.h
+
+/usr/local/include/bullet/BulletCollision/Gimpact/gim_pair.h
 
 /usr/local/include/bullet/BulletCollision/NarrowPhaseCollision/btDiscreteCollisionDetectorInterface.h
 LinearMath/btTransform.h

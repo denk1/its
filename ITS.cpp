@@ -10,7 +10,7 @@ template<> RAT::ITS* Ogre::Singleton<RAT::ITS>::msSingleton = 0;
 namespace RAT
 {
 
-ITS::ITS() : OgreBites::ApplicationContext("OgreTutorialApp"), mInVehicle(true)
+ITS::ITS() : OgreBites::ApplicationContext("OgreTutorialApp"), mInVehicle(true), mExit(false)
 {
     new WeaponFactory();
     new Config();
@@ -183,9 +183,10 @@ void ITS::setup(void)
     // get a pointer to the already created root
     // Initialise the resource groups:
     Ogre::ResourceGroupManager::getSingleton().initialiseAllResourceGroups();
-    scnMgr_ = root_->createSceneManager(Ogre::ST_EXTERIOR_FAR, "BulletTerrain");
+    //scnMgr_ = root_->createSceneManager("BulletTerrain");
+    scnMgr_ = root_->createSceneManager();
     //scnMgr_->setSkyBox(true, "Cratelake");
-    scnMgr_->setSkyBox(true, "Examples/SpaceSkyBox", 5000);
+    //scnMgr_->setSkyBox(true, "Examples/SpaceSkyBox", 5000);
     mWindow = getRenderWindow();
     // register our scene with the RTSS
     shadergen_ = Ogre::RTShader::ShaderGenerator::getSingletonPtr();
@@ -209,13 +210,14 @@ void ITS::setup(void)
                 Ogre::Vector3(-1000, -1000, -1000),
                 Ogre::Vector3(1000, 1000, 1000)
                 );
-    //new Physics(bounds, true);
-    new Physics(bounds);
+    new Physics(bounds, true);
+    //new Physics(bounds);
     mGameState = new GSStart();
     MapLoader loader;
     Map* map;
     //map = loader.loadMap("lowland.rtm", ITS::getSingleton().getSceneManager(), "Maps");
     map = loader.loadMap("plane.rtm", ITS::getSingleton().getSceneManager(), "Maps");
+    //map = loader.loadMap("plane_test.rtm", ITS::getSingleton().getSceneManager(), "Maps");
     map->load();
     mGSMap = new GSMap(map, this);
     ITS::getSingleton().switchState(mGSMap);
@@ -298,7 +300,7 @@ void ITS::windowResized(Ogre::RenderWindow *rw)
 {
     unsigned int width, height, depth;
     int left, top;
-    rw->getMetrics(width, height, depth, left, top);
+    rw->getMetrics(width, height, left, top);
 }
 
 void ITS::windowClosed(Ogre::RenderWindow *rw)
@@ -311,7 +313,8 @@ void ITS::windowClosed(Ogre::RenderWindow *rw)
 
 bool ITS::frameRenderingQueued(const Ogre::FrameEvent &evt)
 {
-    if(mWindow->isClosed() || mExit)
+    bool isClosed = mWindow->isClosed();
+    if(isClosed || mExit)
         return false;
 
     //mKeyboard->capture();

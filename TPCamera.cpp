@@ -18,17 +18,18 @@ TPCamera::TPCamera()
     mSignDirection(-1)
 {
     mCamera = mIts.getSceneManager()->createCamera("PlayerCam");
-	
+    mCameraSN = mIts.getSceneManager()->getRootSceneNode()->createChildSceneNode("mCameraSceneNode");
+    mCameraSN->attachObject(mCamera);
     //mCamera->setPosition(Ogre::Vector3(0, 200, 200));
-    mCamera->setPosition(Ogre::Vector3(300, 100, 450));
-    mCamera->lookAt(Ogre::Vector3(0,0,0));
+    mCameraSN->setPosition(Ogre::Vector3(300, 100, 450));
+    mCameraSN->lookAt(Ogre::Vector3(0,0,0), Ogre::Node::TS_WORLD );
     mCamera->setNearClipDistance(1);
-	mCamera->setCastShadows(false);
+    mCamera->setCastShadows(false);
 	//mCamera->setAutoAspectRatio(true);
-	mCamera->setAspectRatio(
+    mCamera->setAspectRatio(
         Ogre::Real(mIts.getWindow()->getWidth()) / Ogre::Real(mIts.getWindow()->getHeight()));
 	
-    mCamera->setOrientation(Ogre::Quaternion(Ogre::Radian(mPitch),Ogre::Vector3::UNIT_Y)*Ogre::Quaternion(Ogre::Radian(mYaw),Ogre::Vector3::UNIT_X));
+    mCameraSN->setOrientation(Ogre::Quaternion(Ogre::Radian(mPitch),Ogre::Vector3::UNIT_Y)*Ogre::Quaternion(Ogre::Radian(mYaw),Ogre::Vector3::UNIT_X));
 }
 
 TPCamera::~TPCamera()
@@ -64,8 +65,8 @@ void TPCamera::update()
             Ogre::Vector3 testPosCam = mTarget->_getDerivedPosition();
 			Ogre::Vector3 dir = mTarget->_getDerivedOrientation() * Ogre::Quaternion(Ogre::Radian(mYaw), Ogre::Vector3::UNIT_Y) *Ogre::Quaternion(Ogre::Radian(mPitch), Ogre::Vector3::UNIT_X) * Ogre::Vector3(0,0,1);
 			dir.normalise();
-            mCamera->setPosition(mTarget->_getDerivedPosition() + Ogre::Vector3(0, 3.0f, 0) + mSignDirection*dir*mTargetDistance);
-			mCamera->lookAt(mTarget->_getDerivedPosition() + Ogre::Vector3(0, 3.0f, 0));
+            mCameraSN->setPosition(mTarget->_getDerivedPosition() + Ogre::Vector3(0, 3.0f, 0) + mSignDirection*dir*mTargetDistance);
+            mCameraSN->lookAt(mTarget->_getDerivedPosition() + Ogre::Vector3(0, 3.0f, 0), Ogre::Node::TS_WORLD );
 			
 		}
 		else
@@ -85,17 +86,17 @@ bool TPCamera::frameRenderingQueued(const Ogre::FrameEvent& evt)
 	{
 		Ogre::Vector3 delta = Ogre::Vector3::ZERO;
 
-		if (mGoingRight) delta += mCamera->getRight();
-		if (mGoingLeft) delta -= mCamera->getRight();
-		if (mGoingForward) delta += mCamera->getDirection();
-		if (mGoingBack) delta -= mCamera->getDirection();
+        if (mGoingRight) delta += mCameraSN->getOrientation().xAxis();
+        if (mGoingLeft) delta -= mCameraSN->getOrientation().xAxis();
+        if (mGoingForward) delta += mCameraSN->getOrientation().zAxis() * -1;
+        if (mGoingBack) delta -= mCameraSN->getOrientation().zAxis() * -1;
 
 		delta.normalise();
 
 //        if (ITS::getSingleton().getKeyboard()->isModifierDown(OIS::Keyboard::Modifier::Shift))
 //			delta *= 4;
 
-		mCamera->move(delta * mVelocity * evt.timeSinceLastFrame);
+        mCameraSN->translate(delta * mVelocity * evt.timeSinceLastFrame);
 	}
 		
 	return true;
@@ -109,15 +110,20 @@ Ogre::Camera* TPCamera::getCamera()
 
 Ogre::Camera* TPCamera::getCameraS()
 {
-	return TPCamera::getSingleton().mCamera;
+    return TPCamera::getSingleton().mCamera;
+}
+
+Ogre::SceneNode *TPCamera::getCameraSN()
+{
+     return TPCamera::getSingleton().mCameraSN;
 }
 
 
 
 void TPCamera::rotate(Ogre::Real yaw, Ogre::Real pitch)
 {
-	mCamera->yaw(Ogre::Radian(-yaw*mSencivity));
-	mCamera->pitch(Ogre::Radian(-pitch*mSencivity));
+    mCameraSN->yaw(Ogre::Radian(-yaw*mSencivity));
+    mCameraSN->pitch(Ogre::Radian(-pitch*mSencivity));
 	
 	if (mTarget)
 	{
@@ -174,7 +180,7 @@ void TPCamera::changeSignDirection(int sign)
 
 bool TPCamera::setTargetFollowing()
 {
-    mCamera->setPosition(Ogre::Vector3(300, 100, 550));
+    mCameraSN->setPosition(Ogre::Vector3(300, 100, 550));
     mFollowVehicle = !mFollowVehicle;
     return mFollowVehicle;
 }

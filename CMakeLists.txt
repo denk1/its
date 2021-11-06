@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 
 # specify which version and components you need
-find_package(OGRE 1.11 REQUIRED COMPONENTS Bites RTShaderSystem)
+find_package(OGRE 13.0.1 REQUIRED COMPONENTS Bites RTShaderSystem)
 
 
 # copy resource.cfg next to our binaries where OGRE looks for it
@@ -47,6 +47,7 @@ add_executable(${PROJECT_NAME} main.cpp
                                WGun.cpp
                                WRocketLauncher.cpp
                                ConnectionControlInterface.cpp
+                               ConnectionControl.cpp
                                ConnectionControlTcp.cpp
                                Controlling.cpp
                                ThreadSafeData.cpp

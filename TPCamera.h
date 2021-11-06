@@ -21,6 +21,7 @@ public:
 
 	// static version to reduce code length
 	static Ogre::Camera* getCameraS();
+    static Ogre::SceneNode* getCameraSN();
 
 	void rotate(Ogre::Real yaw, Ogre::Real pitch);
 
@@ -54,6 +55,7 @@ protected:
 	bool mGoingForward;
 	bool mGoingBack;
 
+    Ogre::SceneNode* mCameraSN;
 	Ogre::SceneNode* mTarget;
 	Ogre::Real mTargetDistance;
 	Ogre::Real mYaw;

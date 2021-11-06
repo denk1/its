@@ -57,7 +57,9 @@ void Map::load()
     ITS::getSceneManagerS()->setAmbientLight(mLightAmbient);
 	
     mLight = ITS::getSceneManagerS()->createLight();
-	mLight->setDirection(mLightDirection);
+    mLightSN = ITS::getSceneManagerS()->getRootSceneNode()->createChildSceneNode("mCameraSN");
+    mLightSN->attachObject(mLight);
+    mLightSN->setDirection(mLightDirection);
 	mLight->setDiffuseColour(mLightDiffuse);
 
 	mLight->setSpecularColour(mLightSpecular);

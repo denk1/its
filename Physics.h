@@ -25,7 +25,7 @@ public:
     Physics(const Ogre::AxisAlignedBox& bounds, bool debug = false, const Ogre::Vector3& gravityVector = Ogre::Vector3 (0,  -9.81f,  0));
 	~Physics();
 
-		// Удаляет все созданные объекты
+		// пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	void free();
 
 	void destroyShape(OgreBulletCollisions::CollisionShape* shape);
@@ -66,7 +66,7 @@ protected:
 	virtual bool frameEnded(const Ogre::FrameEvent& evt);
 
 	OgreBulletDynamics::DynamicsWorld *mWorld;   // OgreBullet World
-	OgreBulletCollisions::DebugDrawer *mDebugDrawer;
+	OgreBulletCollisions::OgreBulletDebugDrawer* mOgreBulletDebugDrawer;
 	std::deque<OgreBulletDynamics::RigidBody *>         mBodies;
 	std::deque<OgreBulletCollisions::CollisionShape *>  mShapes;
 	int mNumEntitiesInstanced;

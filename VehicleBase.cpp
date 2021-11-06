@@ -68,7 +68,7 @@ void VehicleBase::create(Ogre::SceneNode* parentSN)
     if(mShape.get() != 0)
     {
         //mCarChassis->setShape(mVehicleSN, mShape.get(), mProperties.mRestitution, mProperties.mFriction, mProperties.mMass, Ogre::Vector3(350,75,350));
-        mCarChassis->setShape(mVehicleSN, mShape.get(), mProperties.mRestitution, mProperties.mFriction, mProperties.mMass, Ogre::Vector3(561.50, 10, 448.0));
+        mCarChassis->setShape(mVehicleSN, mShape.get(), mProperties.mRestitution, mProperties.mFriction, mProperties.mMass, Ogre::Vector3(561.50, 350, 448.0));
     }
     else
     {
@@ -149,7 +149,7 @@ Ogre::SceneNode* VehicleBase::getVehicleSN()
 
 void VehicleBase::processControl(const VehicleSteer steer)
 {
-    //(this->*mActionMap[steer])();
+    (this->*mActionMap[steer])();
 }
 
 void VehicleBase::processRightPressed()

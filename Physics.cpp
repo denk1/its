@@ -8,19 +8,19 @@ namespace RAT
 {
 
 Physics::Physics(const Ogre::AxisAlignedBox& bounds, bool debug, const Ogre::Vector3& gravityVector)
-	:mDebugDrawer(0), mNumEntitiesInstanced(0)
+	:mOgreBulletDebugDrawer(0), mNumEntitiesInstanced(0)
 {
     mWorld = new OgreBulletDynamics::DynamicsWorld(ITS::getSceneManagerS(), bounds, gravityVector);
     mWorld->setShowDebugContactPoints(true);
     if(debug)
 		{
 		// add Debug info display tool
-		mDebugDrawer = new OgreBulletCollisions::DebugDrawer();
-		mDebugDrawer->setDrawWireframe(true);   // we want to see the Bullet containers
-		mWorld->setDebugDrawer(mDebugDrawer);
+		mOgreBulletDebugDrawer= new OgreBulletCollisions::OgreBulletDebugDrawer();
+		mOgreBulletDebugDrawer->setDrawWireframe(true);   // we want to see the Bullet containers
+		mWorld->setDebugDrawer(mOgreBulletDebugDrawer);
 		mWorld->setShowDebugShapes(true);      // enable it if you want to see the Bullet containers
         Ogre::SceneNode *node = ITS::getSceneManagerS()->getRootSceneNode()->createChildSceneNode("debugDrawer", Ogre::Vector3::ZERO);
-		node->attachObject(static_cast <Ogre::SimpleRenderable *> (mDebugDrawer));
+		node->attachObject(static_cast <Ogre::SimpleRenderable *> (mOgreBulletDebugDrawer));
 	}
 
     ITS::GetRootS()->addFrameListener(this);
@@ -32,10 +32,10 @@ Physics::~Physics()
 
 	free();
 
-	if(mDebugDrawer)
+	if(mOgreBulletDebugDrawer)
 	{
-		delete mDebugDrawer;
-		mDebugDrawer = 0;
+		delete mOgreBulletDebugDrawer;
+		mOgreBulletDebugDrawer= 0;
 		mWorld->setDebugDrawer(0);
 		
 	}

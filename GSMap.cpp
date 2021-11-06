@@ -67,10 +67,10 @@ bool GSMap::frameStarted(const Ogre::FrameEvent& evt)
 bool GSMap::frameRenderingQueued(const Ogre::FrameEvent& evt)
 {
     Ogre::String statusText = "FPS: " + Ogre::StringConverter::toString(ITS::getSingleton().getWindow()->getStatistics().avgFPS);
-	Ogre::Vector3 cam = TPCamera::getSingleton().getCamera()->getPosition();
+    Ogre::Vector3 cam = TPCamera::getCameraSN()->getPosition();
 	cam.x = (int)cam.x;cam.y = (int)cam.y;cam.z = (int)cam.z;
 	statusText += "\nCameraPos: " + Ogre::StringConverter::toString(cam);
-	cam = TPCamera::getSingleton().getCamera()->getDirection();
+    cam = TPCamera::getCameraSN()->getOrientation().zAxis() * -1;
 	statusText += "\nCameraDir: " + Ogre::StringConverter::toString(cam.x, 2) + " " + Ogre::StringConverter::toString(cam.y, 2) + " " + Ogre::StringConverter::toString(cam.z, 2);
 	int unitsSpeed = mVehicle->getAvgSpeed();
 	int kmhSpeed = mVehicle->getAvgSpeed(VehicleBase::Kmh);

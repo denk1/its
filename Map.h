@@ -50,6 +50,7 @@ protected:
 	
 	Landscape* mLandscape;
 	Ogre::SceneNode* mMapSceneNode;
+    Ogre::SceneNode* mLightSN;
 
 	Ogre::Light* mLight;
 	Ogre::ColourValue mLightAmbient;

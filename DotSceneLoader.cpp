@@ -241,6 +241,8 @@ void DotSceneLoader::processLight(TiXmlElement *XMLNode, SceneNode *pParent)
 
     // Create the light
     Light *pLight = mSceneMgr->createLight(name);
+
+
     if(pParent)
         pParent->attachObject(pLight);
 
@@ -262,12 +264,12 @@ void DotSceneLoader::processLight(TiXmlElement *XMLNode, SceneNode *pParent)
     // Process position (?)
     pElement = XMLNode->FirstChildElement("position");
     if(pElement)
-        pLight->setPosition(parseVector3(pElement));
+        pParent->setPosition(parseVector3(pElement));
 
     // Process normal (?)
     pElement = XMLNode->FirstChildElement("normal");
     if(pElement)
-        pLight->setDirection(parseVector3(pElement));
+        pParent->setDirection(parseVector3(pElement));
 
     // Process colourDiffuse (?)
     pElement = XMLNode->FirstChildElement("colourDiffuse");

@@ -49,10 +49,10 @@ bool Vehicle::frameRenderingQueued(const Ogre::FrameEvent& evt)
 	
 	if (mControlledWeapon)
 	{
-		const Ogre::Quaternion& camRot = TPCamera::getSingleton().getCamera()->getOrientation();
+        const Ogre::Quaternion& camRot = TPCamera::getCameraSN()->getOrientation();
 		Ogre::Degree yaw = camRot.getYaw() - mControlledWeapon->getSceneNode()->getParentSceneNode()->_getDerivedOrientation().getYaw();
 			// Вычисляем угол наклона камеры
-		Ogre::Vector3 direction = TPCamera::getSingleton().getCamera()->getDirection();
+        Ogre::Vector3 direction = TPCamera::getCameraSN()->getOrientation().zAxis() * -1;
 		Ogre::Real len = direction.length();
 		Ogre::Degree pitch(Ogre::Radian(Ogre::Math::ASin(direction.y / len)));
 
