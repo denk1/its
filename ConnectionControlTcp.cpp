@@ -142,9 +142,9 @@ void ConnectionControlTCP::run()
         }
 
         inet_ntop(their_addr.ss_family, get_in_addr((struct sockaddr *)&their_addr), s, sizeof s);
-        printf("server: got connection from %s\n", s);
-        int bytes_read;
-        char buff[16], buff1[8], buff2[8];
+        printf("the server: got the connection from the host %s\n", s);
+        int bytes_read = 0;
+        char buff[16] = {}, buff1[8] = {}, buff2[8] = {};
         while((bytes_read = recv(new_fd, buff, sizeof (buff), 0)) != 0) {
         //while((bytes_read = recvtimeout(new_fd, buff, sizeof (buff), 10)) != -1) {
             if(bytes_read == -2) {
